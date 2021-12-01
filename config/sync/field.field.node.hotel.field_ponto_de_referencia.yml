@@ -1,0 +1,29 @@
+uuid: 567cd77e-a1e2-4b5a-ba6e-b7a82730e106
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ponto_de_referencia
+    - node.type.hotel
+    - taxonomy.vocabulary.pontos_de_referencia
+id: node.hotel.field_ponto_de_referencia
+field_name: field_ponto_de_referencia
+entity_type: node
+bundle: hotel
+label: 'Ponto de referência próximo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      pontos_de_referencia: pontos_de_referencia
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,13 @@
+uuid: 44a38253-5db8-4e6c-b56b-2c28e93ddf80
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: DoVt_VGgVLcDD4XmVbSFzr0K17SJy9imFiYusKkJBgY
+id: taxonomy_term_publish_action
+label: 'Publicar termo da taxonomia'
+type: taxonomy_term
+plugin: 'entity:publish_action:taxonomy_term'
+configuration: {  }

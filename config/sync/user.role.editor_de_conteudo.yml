@@ -1,0 +1,43 @@
+uuid: 7a4dc195-c75a-4d02-b66a-28aada04a215
+langcode: pt-br
+status: true
+dependencies: {  }
+id: editor_de_conteudo
+label: 'Editor de conteúdo'
+weight: -8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer content types'
+  - 'administer nodes'
+  - 'bypass node access'
+  - 'create article content'
+  - 'create hotel content'
+  - 'create page content'
+  - 'delete all revisions'
+  - 'delete any article content'
+  - 'delete any hotel content'
+  - 'delete any page content'
+  - 'delete article revisions'
+  - 'delete hotel revisions'
+  - 'delete own article content'
+  - 'delete own hotel content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'edit any article content'
+  - 'edit any hotel content'
+  - 'edit any page content'
+  - 'edit own article content'
+  - 'edit own hotel content'
+  - 'edit own page content'
+  - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert hotel revisions'
+  - 'revert page revisions'
+  - 'use admin toolbar search'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view hotel revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'

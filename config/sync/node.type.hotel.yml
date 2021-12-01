@@ -1,0 +1,17 @@
+uuid: 523985f3-de62-4eb5-9e8b-d198ba6fe2bd
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Hotel
+type: hotel
+description: 'Listagem para um hotel'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

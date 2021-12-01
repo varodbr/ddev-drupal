@@ -1,0 +1,10 @@
+uuid: cf9bd373-0187-4d6f-a61b-64bf52fcb2d3
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: og8sWXhBuHbLMw3CoiBEZjgqSyhFBFmcbUW_wLcfNbo
+id: long
+label: 'Data longa padrão'
+locked: false
+pattern: 'l, j \d\e F \d\e Y - H:i'

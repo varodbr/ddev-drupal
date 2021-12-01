@@ -1,0 +1,27 @@
+uuid: 3e39f32f-cb63-4009-95e0-c1a0405af199
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - olivero
+_core:
+  default_config_hash: 19CmBQT7OL-3VRx-isvQ5jfGekABppTKv1h5rHK376s
+id: olivero_account_menu
+theme: olivero
+region: secondary_menu
+weight: -4
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Menu de conta de usuário'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

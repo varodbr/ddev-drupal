@@ -1,0 +1,99 @@
+uuid: 1ea067c6-edf9-4ea2-99be-da1305161031
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.hotel.body
+    - field.field.node.hotel.field_image
+    - field.field.node.hotel.field_opcoes_de_data
+    - field.field.node.hotel.field_ponto_de_referencia
+    - field.field.node.hotel.field_video_de_hotel
+    - image.style.thumbnail
+    - node.type.hotel
+  module:
+    - datetime
+    - image
+    - media_library
+    - path
+    - text
+id: node.hotel.default
+targetEntityType: node
+bundle: hotel
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 6
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 8
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_opcoes_de_data:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_ponto_de_referencia:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_video_de_hotel:
+    type: media_library_widget
+    weight: 26
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 2
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  uid: true

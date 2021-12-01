@@ -20,6 +20,8 @@
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/devel": "^4.1",
+        "drupal/pathauto": "^1.8",
         "drupal/webform": "^6.1",
         "drush/drush": "^10.6"
     },

@@ -1,0 +1,11 @@
+uuid: ee7bb8a5-fdc0-4ab4-b3da-2f2d8e00d855
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pontos_de_referencia
+id: taxonomy_term.pontos_de_referencia
+target_entity_type_id: taxonomy_term
+target_bundle: pontos_de_referencia
+default_langcode: site_default
+language_alterable: false

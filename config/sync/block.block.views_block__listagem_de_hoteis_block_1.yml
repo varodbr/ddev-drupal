@@ -1,0 +1,24 @@
+uuid: c8d2fd78-1415-473a-a56e-c9d781c46099
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.listagem_de_hoteis
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__listagem_de_hoteis_block_1
+theme: bartik
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'views_block:listagem_de_hoteis-block_1'
+settings:
+  id: 'views_block:listagem_de_hoteis-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

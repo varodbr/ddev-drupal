@@ -1,0 +1,25 @@
+uuid: 6a3da466-bc07-4a9e-9070-d235a990e5cd
+langcode: pt-br
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0493668b-c033-49cc-bc67-8289dd5cd42c'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: blocodeboasvindas.
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:0493668b-c033-49cc-bc67-8289dd5cd42c'
+settings:
+  id: 'block_content:0493668b-c033-49cc-bc67-8289dd5cd42c'
+  label: 'Bloco de boas vindas.'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

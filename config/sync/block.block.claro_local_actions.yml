@@ -1,0 +1,20 @@
+uuid: 41c324ba-8e86-4c93-99b0-901da0f2def1
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - claro
+_core:
+  default_config_hash: osZQ9lL2jTdH5am4LJiZ29RaivhzOf6vCpoRy6FZwIE
+id: claro_local_actions
+theme: claro
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Principais ações do administrador'
+  provider: core
+  label_display: '0'
+visibility: {  }

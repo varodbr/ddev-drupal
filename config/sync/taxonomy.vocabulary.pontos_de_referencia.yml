@@ -1,0 +1,8 @@
+uuid: 68f7fe3f-7053-44c4-87af-8b5bec20756a
+langcode: pt-br
+status: true
+dependencies: {  }
+name: 'Pontos de referência'
+vid: pontos_de_referencia
+description: 'Locais famosos para turistas'
+weight: 0

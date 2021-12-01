@@ -1,0 +1,20 @@
+uuid: ba6e3e12-ce47-4681-8344-944083c245f2
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_opcoes_de_data
+field_name: field_opcoes_de_data
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

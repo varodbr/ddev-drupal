@@ -1,0 +1,15 @@
+uuid: 33c49971-07f4-4273-886c-7da28ec8158d
+name: 'Guia da cidade de Londres e Paris'
+mail: admin@example.com
+slogan: 'Descubra Londres do seu jeito!'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: pt-br
+default_langcode: pt-br
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: ''

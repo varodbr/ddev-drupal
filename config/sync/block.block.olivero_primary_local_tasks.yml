@@ -1,0 +1,22 @@
+uuid: ba574315-1570-452f-96ad-31ce89f931ca
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - olivero
+_core:
+  default_config_hash: ra6f6AXShbzKP9r6uPc9cfCx2KuomlPqmt1WWPUuDf0
+id: olivero_primary_local_tasks
+theme: olivero
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Abas primárias'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }
